@@ -42,6 +42,7 @@ def drawLayer(y):
         x = 0
         # move to the next row
         z += 1
+    print("\n")
 
 # Load block array
 loadBlocks()
@@ -50,6 +51,7 @@ loadBlocks()
 y = 0
 while y < sizeY:
     print("drawing layer " + str(y))
+    print("\n")
     drawLayer(y)
     y += 1
 
